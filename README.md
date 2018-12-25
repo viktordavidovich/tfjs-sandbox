@@ -14,3 +14,7 @@ classification results:
     } 
   ]
 ```
+You can choose whatever image to test and replace ```panda.jpg``` to the corresponding image in the command line.
+The only one restriction - in order to get a successful result, you have to use an image/object from top 1000 classes which are available here: 
+
+https://github.com/tensorflow/tfjs-models/blob/master/mobilenet/src/imagenet_classes.ts

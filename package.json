@@ -5,9 +5,9 @@
     "jpeg-js": "^0.4.0"
   },
   "devDependencies": {
-    "@tensorflow-models/mobilenet": "^1.0.1",
-    "@tensorflow/tfjs": "^1.7.4",
-    "@tensorflow/tfjs-node": "^1.7.4",
-    "node-fetch": ">=2.6.1"
+    "@tensorflow-models/mobilenet": "2.1.0",
+    "@tensorflow/tfjs": "2.8.6",
+    "@tensorflow/tfjs-node": "2.8.6",
+    "node-fetch": "^2.6.1"
   }
 }

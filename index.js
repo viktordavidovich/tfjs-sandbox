@@ -37,7 +37,12 @@ const imageToInput = (image, numChannels) => {
 };
 
 const loadModel = async path => {
-    const mn = new mobilenet.MobileNet(1, 1);
+    const mn = await mobilenet.load({
+        version: 1,
+        alpha: 1.0,
+        inputRange: [1, 1]
+    })
+
     mn.path = `file://${path}`;
     await mn.load();
     return mn;
